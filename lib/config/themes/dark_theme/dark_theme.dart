@@ -117,18 +117,18 @@ ThemeData cantonDarkTheme() {
     appBarTheme: AppBarTheme(
       color: CantonColors.transparent,
       foregroundColor: CantonColors.transparent,
-      titleTextStyle: MobileTextTheme.theme(base).headline4,
-      toolbarTextStyle: MobileTextTheme.theme(base).headline5,
+      titleTextStyle: MobileTextTheme.theme(base).headlineMedium,
+      toolbarTextStyle: MobileTextTheme.theme(base).headlineSmall,
       elevation: 0.0,
     ),
     bottomNavigationBarTheme: BottomNavigationBarThemeData(
       unselectedItemColor: CantonDarkColors.colorScheme.secondaryContainer,
       selectedItemColor: base.primaryColor,
       selectedLabelStyle: MobileTextTheme.theme(base)
-          .bodyText2
+          .bodyMedium
           ?.copyWith(fontWeight: FontWeight.w500),
       unselectedLabelStyle: MobileTextTheme.theme(base)
-          .bodyText2
+          .bodyMedium
           ?.copyWith(fontWeight: FontWeight.w500),
       backgroundColor: CantonDarkColors.bgCanvasMobile,
       type: BottomNavigationBarType.fixed,
@@ -138,9 +138,9 @@ ThemeData cantonDarkTheme() {
     ),
     visualDensity: VisualDensity.adaptivePlatformDensity,
     primaryColor: CantonDarkColors.blue,
-    errorColor: CantonDarkColors.bgDangerInverse,
+    // errorColor: CantonDarkColors.bgDangerInverse,
     canvasColor: CantonDarkColors.bgCanvasMobile,
-    backgroundColor: CantonDarkColors.bgPrimary,
+    // backgroundColor: CantonDarkColors.bgPrimary,
     scaffoldBackgroundColor: CantonDarkColors.bgCanvasMobile,
     dividerColor: CantonDarkColors.borderPrimary!,
   );

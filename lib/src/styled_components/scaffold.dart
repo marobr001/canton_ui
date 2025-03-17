@@ -74,7 +74,7 @@ class CantonScaffoldType2 extends StatelessWidget {
         child: Container(
           padding: padding ??
               const EdgeInsets.symmetric(horizontal: kDefaultPadding),
-          color: backgroundColor ?? Theme.of(context).backgroundColor,
+          color: backgroundColor ?? Theme.of(context).colorScheme.background,
           child: body,
         ),
       ),

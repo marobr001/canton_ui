@@ -18,7 +18,7 @@ class ViewHeaderOne extends StatelessWidget {
           title!,
           style: Theme.of(context)
               .textTheme
-              .headline2!
+              .displayMedium!
               .copyWith(color: Theme.of(context).colorScheme.primary),
         ),
         const Spacer(),

@@ -61,7 +61,7 @@ class CantonMethods {
     if (MediaQuery.of(context).platformBrightness == Brightness.dark) {
       return Theme.of(context).canvasColor;
     }
-    return Theme.of(context).backgroundColor;
+    return Theme.of(context).colorScheme.background;
   }
 
   static Color alternateCanvasColorType2(BuildContext context,
@@ -76,7 +76,7 @@ class CantonMethods {
       return Theme.of(context).colorScheme.secondary;
     }
 
-    return Theme.of(context).backgroundColor;
+    return Theme.of(context).colorScheme.background;
   }
 
   static Color alternateCanvasColorType3(BuildContext context,

@@ -162,7 +162,7 @@ class _CantonPrimaryButtonState extends State<CantonPrimaryButton>
 
       return Text(
         widget.buttonText!,
-        style: Theme.of(context).textTheme.button?.copyWith(
+        style: Theme.of(context).textTheme.labelLarge?.copyWith(
               color: enabled
                   ? (widget.textColor ??
                       (widget.color!.value ==
