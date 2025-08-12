@@ -1,3 +1,19 @@
+## 1.4.1
+
+- **BREAKING**: Updated for Flutter 3.10.0+ compatibility
+- Fixed CardTheme → CardThemeData migration in both light and dark themes
+- Updated figma_squircle to 0.5.4 to fix hashValues deprecation issue
+- Updated all dependencies to compatible versions:
+  - flutter_riverpod: ^2.4.0
+  - flutter_slidable: ^3.0.0
+  - flutter_spinkit: ^5.2.0
+  - flutter_svg: ^2.0.9
+  - font_awesome_flutter: ^10.6.0
+  - cupertino_icons: ^1.0.6
+  - flutter_lints: ^3.0.0
+- Updated SDK constraints: Dart >=3.0.0, Flutter >=3.10.0
+- Added comprehensive migration guide
+
 ## 1.0.9
 
 - Change License to MIT

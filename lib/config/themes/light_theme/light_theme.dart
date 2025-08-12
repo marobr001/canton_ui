@@ -93,7 +93,7 @@ ThemeData cantonLightTheme() {
         height: 1.5,
       ),
     ),
-    cardTheme: CardTheme(
+    cardTheme: CardThemeData(
       margin: EdgeInsets.zero,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(kDefaultBorderRadius),

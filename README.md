@@ -32,20 +32,27 @@ This includes things such as themes (colors, typography, etc.), custom methods, 
 
 ## Getting Started
 
+### Requirements
+- Flutter SDK: `>=3.10.0`
+- Dart SDK: `>=3.0.0`
+
 To use this package and access its content, add this dependency to your pubspec.yaml
 
-```
+```yaml
 dependencies:
-    canton_ui: <latest_version>
+    canton_ui: ^1.4.1
 ```
 
 And simply import the package using this code
 
-```
+```dart
 import 'package:canton_ui/canton_ui.dart';
 ```
 
 BTW `package:flutter/material.dart` is already imported when using this package so no need to re-import :)
+
+### Migration from older versions
+If you're upgrading from an older version and experiencing compatibility issues, please refer to the [Migration Guide](MIGRATION_GUIDE.md).
 
 ## Using
 

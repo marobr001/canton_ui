@@ -94,7 +94,7 @@ ThemeData cantonDarkTheme() {
       ),
     ),
     colorScheme: CantonDarkColors.colorScheme,
-    cardTheme: CardTheme(
+    cardTheme: CardThemeData(
       margin: EdgeInsets.zero,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(kDefaultBorderRadius),
