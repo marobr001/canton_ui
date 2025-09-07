@@ -192,7 +192,7 @@ class CantonColors {
     secondary: CupertinoColors.systemGrey6,
     secondaryContainer: CupertinoColors.secondaryLabel,
     background: white,
-    surface: white,
+    surface: CupertinoColors.lightBackgroundGray,
     error: red[700]!,
     onSecondary: gray[200]!,
     onBackground: white,
