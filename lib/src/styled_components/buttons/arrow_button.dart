@@ -11,7 +11,7 @@ class CantonArrowButton extends StatelessWidget {
       padding: EdgeInsets.zero,
       alignment: MainAxisAlignment.end,
       icon: Icon(
-        Feather.arrow_right,
+        LucideIcons.arrowRight,
         size: 20,
         color: Theme.of(context).primaryColor,
       ),

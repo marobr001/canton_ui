@@ -4,7 +4,7 @@ library canton_ui;
 
 // Packages
 export 'package:flutter/material.dart';
-export 'package:flutter_icons_pro/flutter_icons_pro.dart';
+export 'package:lucide_icons_flutter/lucide_icons.dart';
 export 'package:page_transition/page_transition.dart';
 export 'package:flutter_spinkit/flutter_spinkit.dart';
 export 'package:flutter_svg/flutter_svg.dart';
