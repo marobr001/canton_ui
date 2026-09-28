@@ -23,7 +23,6 @@ dependencies:
   ms_undraw: ^4.0.0
   liquid_pull_to_refresh: ^3.0.0
   cupertino_icons: ^1.0.6
-  iconsax: ^0.0.8
   page_transition: ^2.2.2
 
 dev_dependencies:
