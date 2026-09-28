@@ -17,6 +17,7 @@ dependencies:
   flutter_slidable: ^3.0.0
   flutter_spinkit: ^5.2.0
   flutter_svg: ^2.0.9
+  flutter_icons_pro: ^1.0.0
   figma_squircle: ^0.6.0
   font_awesome_flutter: ^10.6.0
   ms_undraw: ^4.0.0
