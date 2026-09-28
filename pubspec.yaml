@@ -15,7 +15,6 @@ dependencies:
 
   flutter_riverpod: ^2.4.0
   flutter_slidable: ^3.0.0
-  icons_plus: ^5.0.0
   flutter_spinkit: ^5.2.0
   flutter_svg: ^2.0.9
   figma_squircle: ^0.6.0
